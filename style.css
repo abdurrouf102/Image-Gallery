@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.gallery_section{
+
+}
+
+.gallery_title{
+    text-align: center;
+    color: deeppink;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.gallery_container{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto auto;
+
+}
+
+.gallery_itms{
+    margin: 20px;
+    
+}
+
+.gallery_itms img{
+    width: 250px;
+    box-shadow: 5px 5px 10px;
+    height: 250px;
+    border-radius: 10px;
+    transition: calc(0.2s);
+
+}
+
+.gallery_itms img:hover{
+    transform: scale(1.04);
+
+}
+
+.copyright{
+    text-align: center;
+    font-size: 30px;
+    color: green;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
